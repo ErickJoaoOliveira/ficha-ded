@@ -5,16 +5,15 @@ body{
     box-sizing: border-box;
 }
 
-a{
-    
+a{  
     text-decoration: none;
    
 }
 
 .button-box{
-
     margin: 1rem;
 }
+
 button {
     color: #fdfdfd;
     border-radius: 10px;
@@ -40,9 +39,18 @@ button {
 
 .ntudo img {
     padding: 1rem;
-    width: 17rem;
-    padding-right: 10%;
+    width: 17vw;
+    height: 100vh;
 }
+
+@media (max-width: 600px)
+{
+    .ntudo img {
+      display: none;
+    }
+    
+}
+
 
 .algumascoisas {
     display: block;
